@@ -3,6 +3,7 @@
     width: 1920px;
     align-items: end;
     margin: 0%;
+    padding: 0px;
 
 }
 .headerO{
@@ -49,10 +50,18 @@
     font-weight: 500;
     list-style: none;
     padding: 40px;
-    gap: 13px;
-    list-style: none;
+    gap: 18px;
+    list-style-type: none;
 }
-
+.icons{
+    display: flex;
+    position: relative;
+    gap: 8px;
+    
+    height: 45px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
 
 .headerO > li > a{
     text-decoration: none;
@@ -94,7 +103,7 @@
     -webkit-text-fill-color: transparent;
     
 }
-.list{
+.listt{
     list-style: none;
     color: #534C64;
     font-family: Work Sans;
@@ -103,6 +112,15 @@
     font-weight: 500;
     line-height: normal;
 
+}
+.s{
+    display: flex;
+}
+.ss{
+    display: flex;
+}
+.sss{
+    display: flex;
 }
 .buttonn{
 
@@ -134,7 +152,86 @@
     color: aliceblue;
     font-size: 1rem;
     margin: 0  #4EC5F7;
+}
+/* main */
+
+.main-content{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+    margin: 0%;
+    background-color: rgb(246, 239, 245);
 
 
+}
+.gamer-h{
+
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 2.45rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    color:rgb(201, 94, 201);
+    /* background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
+    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    position: relative;
+    left: 170px;
+    top: 35px;
+}
+
+.para{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    position: relative;
+    top: 20px;
+}
+
+.main-button{
+    display: inline-flex;
+    padding: 14px 33px;
+    position: relative;
+    left: 390px;
+    top: 15px;
+    margin: 0%;
+    color: aliceblue;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    font-size: 17px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+.new-header{
+    gap: 10px;
+    position: relative;
+    left: 120px;
+
+}
+.purpose{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    position: relative;
+    top: 20px;
+}
+.unleash{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    position: relative;
+    top: 20px;
 
 }
