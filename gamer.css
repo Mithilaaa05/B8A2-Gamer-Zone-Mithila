@@ -112,6 +112,7 @@
     font-weight: 500;
     line-height: normal;
 
+
 }
 .s{
     display: flex;
@@ -173,9 +174,14 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal; 
-    color:rgb(201, 94, 201);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    /* color:rgb(201, 94, 201); */
     /* background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
-    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    /* color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
     position: relative;
     left: 170px;
     top: 35px;
@@ -235,3 +241,135 @@
     top: 20px;
 
 }
+/* online games */
+.online{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.onlinee{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    
+}
+.gamess{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.collection{
+    display: flex;
+    justify-content: center;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top : 30px;
+    line-height: 30px; /* 166.667% */
+    /* padding: 18px 30px; */
+}
+
+/* four images */
+.four-img{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    position: relative;
+    top: 40px;
+}
+
+.imgg{
+    text-align: start;
+
+    position: relative;
+    top: 10px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  
+}
+
+.imggg{
+    position: relative;
+    top: 10px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.imgggg{
+    position: relative;
+    top: 10px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.hober-img:hober{
+    background-color: #0b0717;
+}
+.imggggg{
+    position: relative;
+    top: 10px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .headerO {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    }
+
+/* tabet */
+@media screen and (min-width:576px) and (max-width:960px) {
+    .headerO {
+        flex-direction: column;
+    }
+}
+
+    
